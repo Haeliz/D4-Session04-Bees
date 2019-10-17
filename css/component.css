@@ -1,4 +1,4 @@
-/* Header */
+
 .large-header {
 	position: relative;
 	width: 100%;
@@ -9,15 +9,12 @@
 	z-index: 1;
 }
 
-.p {
-	align-content: center;
-	width: 50%;
-}
 
 .demo-2 .large-header {
 	background-image: url('../img/bees_2.jpg');
 	background-position: center bottom;
 }
+
 
 .main-title {
 	position: absolute;
@@ -31,12 +28,10 @@
 	transform: translate3d(-50%,-50%,0);
 }
 
-
-
 .demo-2 .main-title {
-	font-family: 'Clicker Script', cursive;
-	font-weight: normal;
-	font-size: 8em;
+	font-family: 'Pacifico', cursive;
+	font-weight: lighter;
+	font-size: 6em;
 	padding-left: 10px;
 	text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
 }

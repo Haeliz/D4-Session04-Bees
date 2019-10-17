@@ -20,23 +20,27 @@ body {
 	font-size: 1em;
 	line-height: 1.25;
 	font-family: 'Raleway', Arial, sans-serif;
+	align-items: center;
+	align-content: center;
 }
 
 h1 {
 	font-size: 2em;
-	font-weight: lighter;
-	font-style: italic;
+	font-style: normal;
+	font-family: 'Raleway',sans-serif;
 	text-align: center;
+	font-weight: normal;
 }
 
 h2 {
-	font-size: 3em;
-	font-weight: bold;
+	font-size: 2em;
+	font-weight: lighter;
 	text-align: center;
-	padding-left: 50px;
-	padding-right: 50px;
-	padding-top: 20px;
-
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 10px;
+	padding-bottom: 50px;
+	font-family: 'Pacifico',cursive;
 }
 
 a, button {
@@ -57,8 +61,6 @@ section {
 	text-align: center;
 }
 
-
-/* Header */
 .codrops-header {
 	margin: 0 auto;
 	padding: 2em;
@@ -68,34 +70,30 @@ section {
 
 .codrops-header h1 {
 	margin: 0;
-	font-size: 4.5em;
+	font-size: 5em;
 	line-height: 1;
 	font-weight: 200;
+	font-style: normal;
+	font-weight: normal;
+	letter-spacing: 2px;
+
 }
+
 
 .codrops-header h1 span {
 	display: block;
 	padding: 1em 0 1.5em;
 	font-size: 36%;
-	color: #95a5a6;
+	color: #1E90FF;
 	line-height: 1.4;
-}
-
-/* To Navigation Style */
-.codrops-top {
-	width: 100%;
-	text-transform: uppercase;
-	font-weight: 700;
-	font-size: 0.69em;
-	text-align: center;
-	padding: 3em 0;
+	letter-spacing: 3px;
 }
 
 .codrops-top a {
 	display: inline-block;
 	padding: 1.5em;
 	text-decoration: none;
-	letter-spacing: 1px;
+	letter-spacing: 3px;
 }
 
 .codrops-icon:before {
@@ -134,43 +132,21 @@ section {
 	letter-spacing: 1px;
 	font-weight: 700;
 	border-radius: 2px;
-	font-size: 110%;
+	font-size: 200%;
 	border: 2px solid transparent;
+	font-family: 'Bree Serif',serif;
 }
 
 .codrops-demos a:hover,
 .codrops-demos a.current-demo {
-	border-color: #383a3c;
+	border-color: #1E90FF;
+	border-style: dotted;
 }
 
-.codrops-demos h3 {
-	margin: 0;
-	padding: 1em 0 0.5em 0;
-	font-size: 0.9em;
-	float: left;
-	min-width: 90px;
-	clear: left;
-}
-
-.codrops-demos div:not(:first-child) h3 {
-	padding-top: 2em;
-}
-
-.codrops-demos a:hover,
-.codrops-demos a.current-demo {
-	color: inherit;
-	border-color: initial;
-}
-
-/* Related demos */
-.related {
-	padding: 10em 0;
-}
 
 .related p {
-	font-size: 1.5em;
+	font-size: 2em;
 	}
-
 
 .related > a {
 	display: inline-block;
@@ -191,19 +167,16 @@ section {
 	opacity: 1;
 }
 
-.related a h3 {
-	margin: 0;
-	min-height: 63px;
-	padding: 0.5em 0 0.3em;
-	max-width: 300px;
-	text-align: center;
-	font-weight: 400;
-	font-size: 1em;
+
+figure {
+	max-width : 1280px;
+	margin : 0 auto;
 }
 
-@media screen and (max-width: 40em) {
 
-	.codrops-header h1 {
-		font-size: 2.5em;
-	}
+figure img {
+	width : 100%;
+
 }
+
+@media screen and (max-width: 40em)
